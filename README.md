@@ -4,7 +4,7 @@ My NixOS dotfiles. Everything in this setup is riced declaratively (or sometimes
 ![](assets/img/2026-04-13.png)
 
 # Story time!
-I started off watching people on YouTube installing Arch and KDE. All those dashboards looks pretty cool to the 14 year old me. So spun up a VM and installed Arch with `archinstall` after a few failed attempts. I poked around for while, and found I really liked the customization KDE offers. So I started ricing using the KDE settings, installed apps, and just generally poke around to get more comfortable with Linux. Things do feel a bit overwhelming to me. I had to learn how Linux work, how to install programs in the terminal, how to use the terminal, etc. They are comletely different to windows. I was still daily driving windows at that time so, when I felt comfortable enough, I dual booted Arch with KDE for the first time in March 2024. 
+I started off watching people on YouTube installing Arch and KDE. I remember it was [this YouTube video](https://www.youtube.com/watch?v=xQblmLXIJyA). All those dashboards and widgets looks pretty cool to the 14 year old me. So spun up a VM and installed Arch with `archinstall` after a few failed attempts. I poked around for while, and found I really liked the customization KDE offers. So I started ricing using the KDE settings, installed apps, and just generally poke around to get more comfortable with Linux. Things do feel a bit overwhelming to me. I had to learn how Linux work, how to install programs in the terminal, how to use the terminal, etc. They are comletely different to windows. I was still daily driving windows at that time so, when I felt comfortable enough, I dual booted Arch with KDE for the first time in March 2024. 
 
 ![](assets/img/2024-03-15.jpg)
 
