@@ -3,7 +3,7 @@
 git add . &> /dev/null
 treefmt &> /dev/null
 
-sudo chown -R udontur:777 ./.git > /dev/null
+sudo chown -R hei:777 ./.git > /dev/null
 
 currentDate=$(date +"REB: %Y-%m-%d %H:%M:%S")
 git commit -m "$currentDate" > /dev/null
