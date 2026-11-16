@@ -31,8 +31,8 @@
     ghostty
     zed-editor
     proton-vpn
-    open-webui
     obsidian
+    jan
     obs-studio
     chromium
     nautilus
