@@ -27,11 +27,17 @@
     bat
     eza
     broot
+    rclone
     # Apps
     ghostty
     zed-editor
     proton-vpn
+    kicad
+    freecad
+    glade
     obsidian
+    activitywatch
+    osu-lazer
     jan
     obs-studio
     chromium
