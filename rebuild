@@ -9,7 +9,7 @@ currentDate=$(date +"REB: %Y-%m-%d %H:%M:%S")
 git commit -m "$currentDate" > /dev/null
 
 # -Q --no-build-output is broken
-nh os switch --hostname main
+nh os switch --hostname earth
 # sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader
 
 notify-send "NixOS finished rebuilding!"

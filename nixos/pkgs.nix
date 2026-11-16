@@ -1,0 +1,46 @@
+{ inputs, config, pkgs, ... }:
+
+{
+  # Software
+  nixpkgs.config.allowUnfree = true;
+  hardware.enableRedistributableFirmware = true; # Extra firmware
+  hardware.enableAllFirmware = true;
+
+  # Packages
+  environment.systemPackages = with pkgs; [
+    # Terminal
+    helix
+    btop
+    opencode
+    yazi
+    fzf
+    zoxide
+    imagemagick
+    ffmpeg
+    gitui
+    systemctl-tui
+    podman-tui
+    fastfetch
+    gdu
+    nvtopPackages.intel
+    yt-dlp
+    bat
+    eza
+    broot
+    # Apps
+    ghostty
+    zed-editor
+    proton-vpn
+    obsidian
+    obs-studio
+    chromium
+    nautilus
+    localsend
+    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.beta
+    # Auxilary
+    brightnessctl
+    git
+    pciutils
+    podman
+  ];
+}

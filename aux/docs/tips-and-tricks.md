@@ -10,6 +10,9 @@ If it starts outputting weird errors, make sure all used files are tracked by `g
 git add .
 ```
 
+## Changes not applying?
+Did you import the file properly?
+
 ## SSH Key
 See [ssh.md](ssh.md)
 
@@ -20,4 +23,4 @@ export NH_FLAKE=/home/udontur/path/to/dir
 ```
 
 ### Fresh NixOS install
-Make sure the boot loader is selected as `NixOS Bootloader` instead of `Linux Bootloader`. 
+Make sure the boot loader is selected as `NixOS Bootloader` instead of `Linux Bootloader`.
