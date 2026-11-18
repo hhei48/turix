@@ -14,7 +14,6 @@ in
 {
   home.sessionVariables.SSH_AUTH_SOCK = onePassPath;
 
-  # or, alternatively, set it in `.ssh/config` which has higher precedence:
   programs.ssh = {
     enable = true;
     enableDefaultConfig = false;

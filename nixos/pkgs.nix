@@ -3,8 +3,8 @@
 {
   # Software
   nixpkgs.config.allowUnfree = true;
-  hardware.enableRedistributableFirmware = true; # Extra firmware
-  hardware.enableAllFirmware = true;
+  # hardware.enableRedistributableFirmware = true; # Extra firmware
+  # hardware.enableAllFirmware = true;
 
   # Packages
   environment.systemPackages = with pkgs; [

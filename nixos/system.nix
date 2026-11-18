@@ -14,8 +14,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Linux kernel version
-  # Switch back to latest when get AX211 card
-  boot.kernelPackages = pkgs.linuxPackages_6_12;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Time & Locale
   time.timeZone = "Asia/Hong_Kong";
@@ -39,19 +38,19 @@
   networking = {
     networkmanager = {
       enable = true;
-      wifi.powersave = false;
+      # wifi.powersave = false;
     };
     hostName = "earth";
     useDHCP = false; # Prevent conflict with network manager
   };
 
   # Disable network power saving modes
-  boot.kernelParams = [ "pcie_aspm=off" ];
-  boot.extraModprobeConfig = ''
-    options iwlwifi power_save=0
-    options iwlmvm power_scheme=1
-  '';
-  services.udev.extraRules = ''
-    ACTION=="add", SUBSYSTEM=="pci", ATTR{class}=="0x028000", ATTR{power/control}="on"
-  '';
+  # boot.kernelParams = [ "pcie_aspm=off" ];
+  # boot.extraModprobeConfig = ''
+  #   options iwlwifi power_save=0
+  #   options iwlmvm power_scheme=1
+  # '';
+  # services.udev.extraRules = ''
+  #   ACTION=="add", SUBSYSTEM=="pci", ATTR{class}=="0x028000", ATTR{power/control}="on"
+  # '';
 }
