@@ -49,5 +49,6 @@
     git
     pciutils
     podman
+    podman-compose
   ];
 }

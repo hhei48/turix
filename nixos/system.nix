@@ -25,8 +25,14 @@
   users.users."hei" = {
     isNormalUser = true;
     description = "hei";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "podman" ];
     # Set the password with passwd
+  };
+  
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true; # Creates a symlink from docker to podman
+    defaultNetwork.settings.dns_enabled = true; # Required for containers under podman-compose to be able to talk to each other.
   };
 
   # Networking
