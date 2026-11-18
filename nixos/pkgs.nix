@@ -34,6 +34,7 @@
     proton-vpn
     kicad
     freecad
+    distrobox
     glade
     obsidian
     activitywatch
