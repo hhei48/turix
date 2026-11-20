@@ -7,6 +7,7 @@
     ./vicinae.nix
     ./1password.nix
     ./ssh.nix
+    ./starship.nix
   ];
   programs.home-manager.enable = true;
   home = {
