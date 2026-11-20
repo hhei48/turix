@@ -13,6 +13,9 @@
     setOptions = [
       "HIST_IGNORE_ALL_DUPS"
     ];
+    promptInit = ''
+      eval "$(starship init zsh)"    
+    '';
   };
 
 
