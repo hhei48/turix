@@ -48,6 +48,7 @@
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.beta
     # Auxilary
     brightnessctl
+    gcc
     git
     pciutils
     podman
