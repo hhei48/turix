@@ -473,16 +473,16 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1792834107,
-        "narHash": "sha256-9mObIpT3lKu2W16ce1hl5OAFKk7D1A5QuMWUsmtelRo=",
+        "lastModified": 1795145565,
+        "narHash": "sha256-FS5Q2brey790uc5Zny9s2bYFWfw9StngKRI1dp/L8Yg=",
         "owner": "hhei48",
-        "repo": "umpire",
-        "rev": "ee59cb4f7b85f026474e934a1a439680079c3b0b",
+        "repo": "umpire-rs",
+        "rev": "bb7ec409e6af34c8daf81ecd91a9d202b9c0fc9b",
         "type": "github"
       },
       "original": {
         "owner": "hhei48",
-        "repo": "umpire",
+        "repo": "umpire-rs",
         "type": "github"
       }
     },

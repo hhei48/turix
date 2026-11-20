@@ -49,6 +49,7 @@
     # Auxilary
     brightnessctl
     gcc
+    starship
     git
     pciutils
     podman
