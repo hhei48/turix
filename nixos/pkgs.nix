@@ -25,7 +25,7 @@
     nvtopPackages.intel
     yt-dlp
     bat
-    inputs.umpire.packages."${system}".default
+    inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
     eza
     broot
     rclone

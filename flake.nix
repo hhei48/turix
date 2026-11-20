@@ -17,7 +17,7 @@
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     vicinae.url = "github:vicinaehq/vicinae";
-    umpire.url = "github:hhei48/umpire";
+    umpire.url = "github:hhei48/umpire-rs";
     # vicinae-extensions = {
     #   url = "github.com:vicinaehq/extensions";
     #   inputs.nixpkgs.follows = "nixpkgs";
