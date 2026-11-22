@@ -25,7 +25,7 @@
   services.gnome.gnome-keyring.enable = true;
   services.dbus.packages = with pkgs; [
     gnome-keyring
-    gcr
+    gcr_4
   ];
   security.pam.services.login.enableGnomeKeyring = true;
 
