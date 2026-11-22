@@ -8,7 +8,7 @@
     ./vicinae.nix
     ./1password.nix
     ./ssh.nix
-    ./starship.nix
+    # ./starship.nix
   ];
 
   # Symlinks configs
@@ -17,6 +17,9 @@
       "${config.home.homeDirectory}/turix/home/niri.kdl";
     "wallpaper/wallpaper.jpg".source = config.lib.file.mkOutOfStoreSymlink
       "${config.home.homeDirectory}/turix/home/wallpaper.jpg";
+    "starship.toml".source = config.lib.file.mkOutOfStoreSymlink
+      "${config.home.homeDirectory}/turix/home/starship.toml";
+
   };
 dconf.settings."org/gnome/desktop/interface".color-scheme = "prefer-dark";
 
