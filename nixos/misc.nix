@@ -27,6 +27,6 @@
     gnome-keyring
     gcr
   ];
-  security.pam.services.login.enableGnomekeyring = true;
+  security.pam.services.login.enableGnomeKeyring = true;
 
 }
