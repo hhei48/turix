@@ -1,12 +1,12 @@
 # ❄️ Turix
-My NixOS dotfiles. 95% reproducibility by ricing declaratively using Nix or synced via cloud accounts.  
+My NixOS configuration. ~95% reproducibility by ricing declaratively using Nix or synced via cloud accounts.  
 
 Currently remaking my entire NixOS config from scratch. 
 
 ![Setup demo](aux/img/2026-04-13.png)
 
 # Story time!
-Before I start yapping about my Linux journey, I just wanted to say, I already like to "rice stuff" since my age has only one digit.
+Before I start yapping about my Linux journey, I just wanted to say, I already liked to "rice stuff" since my age has only one digit.
 
 Take a look at this control panel for managing my island and technology lab called SOM. 
 ![](aux/img/Panel-1.jpg)
