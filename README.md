@@ -3,7 +3,7 @@ My NixOS dotfiles. 95% reproducibility by ricing declaratively using Nix or sync
 
 Currently remaking my entire NixOS config from scratch. 
 
-![](aux/img/2026-04-13.png)
+![Setup demo](aux/img/2026-04-13.png)
 
 # Story time!
 Before I start yapping about my Linux journey, I just wanted to say, I already like to "rice stuff" since my age has only one digit.
