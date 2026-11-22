@@ -5,7 +5,7 @@
 {
   imports = [
     ./git.nix
-    ./vicinae.nix
+    ./vicinae/vicinae.nix
     ./1password.nix
     ./ssh.nix
   ];
