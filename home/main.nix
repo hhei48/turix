@@ -18,6 +18,8 @@
     "wallpaper/wallpaper.jpg".source = config.lib.file.mkOutOfStoreSymlink
       "${config.home.homeDirectory}/turix/home/wallpaper.jpg";
   };
+dconf.settings."org/gnome/desktop/interface".color-scheme = "prefer-dark";
+
 
   programs.home-manager.enable = true;
   home = {

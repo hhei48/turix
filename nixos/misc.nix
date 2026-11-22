@@ -13,8 +13,10 @@
 
   # Themeing
   stylix = {
-    enable = true;
+    # enable = true;
     polarity = "dark";
-    # base16Scheme = "${pkgs.base16-schemes}/share/themes/onedark.yaml";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/onedark.yaml";
   };
+  programs.dconf.enable = true;
+
 }
