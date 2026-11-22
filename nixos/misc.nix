@@ -17,6 +17,16 @@
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/onedark.yaml";
   };
+
+  # DConf
   programs.dconf.enable = true;
+
+  # Keyring
+  services.gnome.gnome-keyring.enable = true;
+  services.dbus.packages = with pkgs; [
+    gnome-keyring
+    gcr
+  ];
+  security.pam.services.login.enableGnomekeyring = true;
 
 }
