@@ -8,8 +8,6 @@
     ./1password.nix
     ./ssh.nix
     ./starship.nix
-    ./wallpaper/wallpaper.nix
-    ./niri/niri.nix
   ];
 
   # Symlinks configs
