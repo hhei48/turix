@@ -43,6 +43,7 @@
           home-manager.useUserPackages = true;
           home-manager.extraSpecialArgs = { inherit inputs; }; # Access to inputs in home manager
           home-manager.users.hei= import ./home/main.nix;
+          home-manager.backupFileExtension = "backup";
         }
         stylix.nixosModules.stylix
         vicinae.nixosModules.default
