@@ -12,9 +12,11 @@
   ];
 
   # Symlinks configs
-  home.file = {
-    ".config/niri/config.kdl".source = config.lib.file.mkOutOfStoreSymlink "/home/hei/turix/home/niri.kdl";
-    ".config/wallpaper/wallpaper.jpg".source = config.lib.file.mkOutOfStoreSymlink "/home/hei/turix/home/wallpaper.jpg";
+  xdg.configFile = {
+    "niri/config.kdl".source = config.lib.file.mkOutOfStoreSymlink
+      "${config.home.homeDirectory}/turix/home/niri.kdl";
+    "wallpaper/wallpaper.jpg".source = config.lib.file.mkOutOfStoreSymlink
+      "${config.home.homeDirectory}/turix/home/wallpaper.jpg";
   };
 
   programs.home-manager.enable = true;
