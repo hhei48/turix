@@ -40,7 +40,6 @@
     obsidian
     activitywatch
     osu-lazer
-    jan
     obs-studio
     chromium
     nautilus
