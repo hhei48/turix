@@ -50,6 +50,7 @@
     gcc
     wl-clipboard
     libnotify
+    mako
     starship
     git
     pciutils
