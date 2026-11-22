@@ -48,6 +48,7 @@
     # Auxilary
     brightnessctl
     gcc
+    swaybg
     wl-clipboard
     libnotify
     mako

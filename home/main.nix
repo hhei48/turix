@@ -8,6 +8,7 @@
     ./1password.nix
     ./ssh.nix
     ./starship.nix
+    ./wallpaper/wallpaper.nix
   ];
   programs.home-manager.enable = true;
   home = {
