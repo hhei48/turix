@@ -9,6 +9,7 @@
     ./ssh.nix
     ./starship.nix
     ./wallpaper/wallpaper.nix
+    ./niri/niri.nix
   ];
   programs.home-manager.enable = true;
   home = {
