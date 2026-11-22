@@ -48,6 +48,8 @@
     # Auxilary
     brightnessctl
     gcc
+    wl-clipboard
+    libnotify
     starship
     git
     pciutils
