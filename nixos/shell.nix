@@ -13,6 +13,7 @@
     setOptions = [
       "HIST_IGNORE_ALL_DUPS"
     ];
+    # starship styling
     promptInit = ''
       eval "$(starship init zsh)"    
     '';

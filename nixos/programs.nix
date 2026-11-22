@@ -14,7 +14,7 @@
     fi
   '';
 
-  # Btop permissions
+  # Btop, enable root owner to detect GPU
   security.wrappers.btop = {
     owner = "root";
     group = "root";
