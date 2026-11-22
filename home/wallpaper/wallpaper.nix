@@ -1,3 +1,3 @@
 {
-  home.file.".config/wallpaper/wallpaper.jpg" = "./wallpaper.jpg";
+  home.file.".config/wallpaper/wallpaper.jpg".source = "./wallpaper.jpg";
 }
