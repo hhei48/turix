@@ -57,8 +57,8 @@ Fedora + Gnome is pretty bloated in comparison to what I am used too. Tools like
 
 I am currently remaking my NixOS config from scratch to try to understand what each line of my config does to prevent bloat. 
 
-![[Pasted image 20261123113845.png]]
-![[Pasted image 20261123113953.png]]
+![[nixpkgs.png]]
+![[umpire-flake.png]]
 That's it happy nixing!!!
-![[Pasted image 20261123114019.png]]
+![[umpire-cmake.png]]
 ![[2026-02-23.jpg]]![[2026-04-13.png]]
