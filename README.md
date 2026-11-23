@@ -1,9 +1,8 @@
 # ❄️ Turix
 My NixOS configuration. ~95% reproducibility by ricing declaratively using Nix or synced via cloud accounts.  
 
-Currently remaking my entire NixOS config from scratch. 
+> Currently remaking my entire NixOS config from scratch. 
 
-This is my setup back in April 2026.
 ![Setup demo](aux/img/2026-04-13.png)
 
 # Story time! (Work In Progress)
