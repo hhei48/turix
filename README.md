@@ -66,7 +66,7 @@ Don't get me wrong, I still love ricing, Nix, and tinkering. But right I now I r
 NixOS is a big part of my tech journey. Even though I am a stupid teenager, Nix taught me a lot about Linux, OS, software, and even some hardware through the countless hours of tinkering, configuring, and "researching" (poking around docs and forums lol). Oh btw if you are wondering, I still use Nix in some of my coding projects and servers, just not using it to manage my OS. 
 
 Here is what my NixOS setup looks like before I made the switch. It uses the dank material shell.
-![](2026-04-13.webp)
+![](aux/img/2026-04-13.webp)
 
 Until then, NixOS.
 
