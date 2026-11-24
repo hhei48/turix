@@ -9,16 +9,18 @@ My NixOS configuration. ~95% reproducibility by ricing declaratively using Nix o
 Before I start yapping about my Linux journey, I just wanted to say, I already liked to "rice stuff" since my age has only one digit.
 
 Take a look at this control panel for managing my technology island called SOM. 
+
 ![](aux/img/Panel-1.webp)
 
 And this monitor for my defense robots with a popcorn machine on the top left corner.
+
 ![](aux/img/Panel-2.webp)
 
 Well, it turns out this love for customization would push me into the rabbit hole of anything related to Linux and operating systems! 
 
 ## Arch Linux
 
-I started off watching [this YouTube video](https://www.youtube.com/watch?v=xQblmLXIJyA) installing Arch and KDE because I saw someone yapping about Arch on Reddit (Yes, it is real). All those dashboards and widgets looks pretty cool to the 14 year old me. So spun up a VM and installed Arch with `archinstall` after a few failed attempts. I poked around for a while, and found I really liked the customization KDE offers. So I started ricing using the KDE settings, installed apps, and just generally poke around to get more comfortable with Linux. Things do feel a bit overwhelming to me. I had to learn how Linux work, how to install programs in the terminal, how to use the terminal, etc. They are completely different to windows. I was still daily driving windows at that time so, when I felt comfortable enough, I dual booted Arch with KDE for the first time in March 2024. 
+I started off watching [this YouTube video](https://www.youtube.com/watch?v=xQblmLXIJyA) installing Arch and KDE because I saw someone yapping about Arch on Reddit (Yes, it is real). All those dashboards and widgets looks pretty cool to the 14 year old me. So I spun up a VM and installed Arch with `archinstall` after a few failed attempts. I poked around for a while, and found I really liked the customization KDE offers. So I started ricing using the KDE settings, installed apps, and just generally poke around to get more comfortable with Linux. Things do feel a bit overwhelming to me. I had to learn how Linux work, how to install programs in the terminal, how to use the terminal, etc. They are completely different to windows. I was still daily driving windows at that time so, when I felt comfortable enough, I dual booted Arch with KDE for the first time in March 2024. 
 
 ![](aux/img/2024-03-15.webp)
 
@@ -45,28 +47,33 @@ Anyways, I have been eyeing NixOS for a while, so what’s a better excuse than 
 ![](aux/img/2025-02-02.webp)
 
 From that day on, I didn't distro hop or DE/WM hop anymore. I just riced my NixOS setup little by little every day. I riced most of my dotfiles decleratively using home manager, adding some programs like waybar, wofi, and zen, did a bunch of debugging and tinkering along the way. 
+
 ![](aux/img/2025-06-10.webp)
 
 NixOS is working great for me because, again, the design philosophy sounds intuitive. Every system and app configuration is riced declaratively so I can see exactly what I installed and configured in my system. Because NixOS is immutable, if something broke, I can just roll back to the previous generation. Fearless ricing! (unless you're touching the bootloader). I will also have a nice backup of my entire system, which gives you a peace of mind that your computer is "safe".
+
 ![](aux/img/2026-02-23.webp)
 
 As I get more comfortable with Nix and its ecosystem, I used Nix to managed my coding projects as well (right side). I also use Nix to create dev environments and even (almost) merged a package to nixpkgs (left side, but the original program broke mid-PR because Instagram banned accounts using third party apps)
+
 ![](aux/img/Nix.webp)
 
 ## No more NixOS
 I still have a shallow understanding NixOS, but before I dived deeper in to the documentation and tutorials, I lost patience with NixOS. I simply want things to work because a lot of the coding projects like electron, python, and cmake has to be done the Nix way with a lot of workarounds. It costed me a lot of time, and spending hours figuring out a workaround has became very unenjoyable because it happened so many times. Right now, I just want things to work out of the box.   
 
+Here is what my NixOS setup looks like before I made the switch. It uses the dank material shell.
+
+![](aux/img/2026-04-13.webp)
+
 Being a non FHS distro with a not so main stream package manager means a lot of things doesn't work out of the box and require tons and tons of tinkering to get it working "properly". Python venv needs a patch, bluetooth is wonky even with a patch, and a bunch of apps and tools not even running because they cannot find a path to some libraries, updating one single flake breaks the config, and more random bugs when you just want things to work... I am so sorry, but I am tired of debugging these problems every day. 
 
 The compatibility and stability of other distros outweighs the pros of Nix, so I decided to switch back to a more "beginner friendly" distro like Fedora + Gnome. I didn't do a lot of ricing, just a few gnome extensions and some new apps I discovered.  
+
 ![](aux/img/2026-10-23.webp)
 
 Don't get me wrong, I still love ricing, Nix, and tinkering. But right I now I really want things to just work out of the box, and I think switching to a main stream distro is the right move.  
 
 NixOS is a big part of my tech journey. Even though I am a stupid teenager, Nix taught me a lot about Linux, OS, software, and even some hardware through the countless hours of tinkering, configuring, and "researching" (poking around docs and forums lol). Oh btw if you are wondering, I still use Nix in some of my coding projects and servers, just not using it to manage my OS. 
-
-Here is what my NixOS setup looks like before I made the switch. It uses the dank material shell.
-![](aux/img/2026-04-13.webp)
 
 Until then, NixOS.
 
