@@ -6,6 +6,8 @@ My NixOS configuration, ~95% reproducibility by ricing declaratively with Nix, w
 ![Setup demo](aux/img/2026-04-13.webp)
 
 # Story time!
+*~1300 words, ~6 minute read*
+
 Before I start yapping about my Linux journey, I just wanted to say that I already loved "ricing stuff" back when my age only had one digit.
 
 Take a look at this control panel for managing my technology island called SOM:
